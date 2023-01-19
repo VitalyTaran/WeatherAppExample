@@ -12,6 +12,7 @@
 		23C36A8E2979B8F800229F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C36A8D2979B8F800229F87 /* Assets.xcassets */; };
 		23C36A912979B8F800229F87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C36A902979B8F800229F87 /* Preview Assets.xcassets */; };
 		23EE31EB2979BA3400FA7233 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE31EA2979BA3400FA7233 /* LocationManager.swift */; };
+		23EE31EE2979BC9600FA7233 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EE31ED2979BC9600FA7233 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		23C36A8D2979B8F800229F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23C36A902979B8F800229F87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23EE31EA2979BA3400FA7233 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		23EE31ED2979BC9600FA7233 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,9 @@
 		23C36A882979B8F600229F87 /* WeatherAppExample */ = {
 			isa = PBXGroup;
 			children = (
+				23EE31EC2979BC1E00FA7233 /* Views */,
 				23EE31E92979B9EC00FA7233 /* Managers */,
 				23C36A892979B8F600229F87 /* WeatherAppExampleApp.swift */,
-				23C36A8B2979B8F600229F87 /* ContentView.swift */,
 				23C36A8D2979B8F800229F87 /* Assets.xcassets */,
 				23C36A8F2979B8F800229F87 /* Preview Content */,
 			);
@@ -76,6 +78,15 @@
 				23EE31EA2979BA3400FA7233 /* LocationManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		23EE31EC2979BC1E00FA7233 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23C36A8B2979B8F600229F87 /* ContentView.swift */,
+				23EE31ED2979BC9600FA7233 /* WelcomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				23C36A8C2979B8F600229F87 /* ContentView.swift in Sources */,
 				23C36A8A2979B8F600229F87 /* WeatherAppExampleApp.swift in Sources */,
 				23EE31EB2979BA3400FA7233 /* LocationManager.swift in Sources */,
+				23EE31EE2979BC9600FA7233 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
